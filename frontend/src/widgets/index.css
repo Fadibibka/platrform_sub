@@ -1,0 +1,97 @@
+.sectionHeading{
+    font-family: var(--font-manrope);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 87px;
+    color: var(--font_color_main);
+    grid-column: span 12;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.ApplicationFormBlockWp{
+    grid-column:  span 12;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 50px 0;
+    box-sizing: border-box;
+}
+.ApplicationFormBlockBackImgsWpp{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    width: 50%;
+    max-width: 780px;
+    height: auto;
+    transform: translate(-10%, -65%);
+    aspect-ratio: 1 / 1
+}
+.ApplicationFormBlockImage{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    /* position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    width: 50%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    transform: translate(-10%, -65%); */
+}
+@keyframes ApplicationFormBlockImageDopAnim {
+     0% {
+    transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-6px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.ApplicationFormBlockImageDop{
+    position: absolute;
+    right: 0%;
+    top: 5%;
+    z-index: 2;
+    width: 30%;
+    height: auto;
+    aspect-ratio: 1;
+    animation: ApplicationFormBlockImageDopAnim 2.5s ease-in-out infinite;
+}
+.WorksBlockCardWp{
+    grid-column: span 12;
+    gap: 38px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.ArrowSvgNav{
+    width: 41px;
+    height: 20px;
+    stroke: rgba(var(--foreground));
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.WorksBlockPostiton{
+    transform: rotate(-45deg);
+}
+@media (max-width:760px) {
+    .sectionHeading{
+        font-size: 40px;
+    }
+
+}
+/* @media (max-width:460px) {
+    .WorksCardFlexSize{
+
+    }
+} */
