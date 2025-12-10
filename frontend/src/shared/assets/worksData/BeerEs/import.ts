@@ -5,7 +5,7 @@ import Card from './Card.png'
 import Slider from './Slider.png'
 import Descr from './Descr.png'
 import Descr2 from './Descr2.png'
-
+export const BeerEssentialsVideo = '/BeerEssentialsVideo.mp4'
 const BEER_IMGS = {
     MainImg,
     Map,

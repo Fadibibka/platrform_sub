@@ -1,4 +1,5 @@
 import WorksImgModal from "@/features/modal/components/WorksImgModal";
+import WorkDetailsModal from "@/features/modal/components/WorkDetailsModal";
 import { WORKS_DATA } from "@/shared/CONST";
 
 import WorksCard from "@/shared/ui/card/WorksCard";
@@ -16,13 +17,14 @@ export default function WorksBlock(){
                     name={work.name}
                     descr={work.descr}
                     imgUrls={work.imgUrls}
-                    link={work.link}
+                    details={work.details}
                     />
                 ))}
             </div>
             
             
         </section>
+        <WorkDetailsModal/>
         <WorksImgModal/>
         </>
     )

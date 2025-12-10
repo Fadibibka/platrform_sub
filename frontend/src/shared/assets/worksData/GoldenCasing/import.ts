@@ -2,6 +2,7 @@ import MainImg from './Main.png'
 import CpImg from './CpList.png'
 import SlugImg from './SlugList.png'
 import FormImg from './Form.png'
+export const GoldenCasingVideo = '/GoldenCasingVideo.mp4'
 
 const GC_IMGS = {
     MainImg,
